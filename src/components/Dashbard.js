@@ -16,9 +16,9 @@ const Dashboard = () => {
       >
         Add User
       </Link>
-      <UserList users={users} />
+      <UserList />
     </div>
   );
-};
+};  
 
 export default Dashboard;
