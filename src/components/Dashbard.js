@@ -3,13 +3,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import UserList from '../UserList';
 
-const Dashboard = () => {
+const Dashboard = () => {  
   const [users, setUsers] = useState([]);
 
-  const handleAddUser = (newUser) => {
-    setUsers([...users, newUser]);
-  };
-
+   
   return (
     <div className="p-6">
       <h2 className="text-3xl font-semibold mb-4">Dashboard</h2>

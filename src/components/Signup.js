@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom'; 
+import { Link} from 'react-router-dom'; 
 const Signup = () => {
   const [formData, setFormData] = useState({
     name: '',  
@@ -36,10 +36,6 @@ const Signup = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Implement API call to save data
-  };
 
 
   return (
