@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import UserList from '../UserList';
 
 const Dashboard = () => {  
-  const [users, setUsers] = useState([]);
 
    
   return (
